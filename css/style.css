@@ -54,7 +54,6 @@ h2.title {
     margin-top: 21px;
     
 }
-
 .promo .promo_text {
     padding: 0 13px;
     margin-top: 23px;
@@ -67,7 +66,6 @@ h2.title {
     font-weight: 300;
     text-align: center;
 }
-
 .promo .promo_text span {
     color: #f9bf3b;
     font-family: "Roboto - Bold";
@@ -75,7 +73,7 @@ h2.title {
 }
 .promo .promo_btn {
     display: block;
-    margin: 73px auto;
+    margin: 73px auto 0;
     width: 313px;
     height: 72px;
     box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
@@ -93,7 +91,7 @@ h2.title {
 
 }
 .more {
-    margin-top: 73px;
+    margin-top: px;
 }
 .more .more_text {
     color: #ffffff;
@@ -102,10 +100,43 @@ h2.title {
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
+    margin-top: 50px;
 }
 
 .more_img {
     display: block;
-    margin: 0px auto;
-    margin-top: 13px;
+    margin: 13px auto 0;
     }
+.waiting {
+    height: 604px;
+    background-color: #efefef;
+    padding: 85px 0 75px 0;
+}
+.waiting .waiting_header {
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center; 
+}
+.waiting .waiting_divider {
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    margin: 18px auto 0;
+}
+.waiting .waiting_subheader {
+    margin-top: 17px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-style: 23px;
+    font-weight: 400;
+    text-align: center;
+}
+.waiting .waiting_wrapper {
+    margin-top: 45px;
+}
+.waiting_item {
+    width: 339px;
+}
