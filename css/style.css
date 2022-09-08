@@ -138,5 +138,17 @@ h2.title {
     margin-top: 45px;
 }
 .waiting_item {
+    display: inline-block;
+    margin: 0 15px 15px;
+    vertical-align: top;
     width: 339px;
+    text-align: center;
+}
+.waiting_descr {
+    margin-top: 33px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300px;
+    line-height: 21px;
 }
